@@ -194,3 +194,25 @@ brew cleanup
 vagrant box add laravel/homestead
 composer global require "laravel/homestead=~2.0"
 homestead init
+
+#some npm things
+npm install -g acs
+npm install -g alloy
+npm install -g bower
+npm install -g browser-sync
+npm install -g browserify
+npm install -g connect-livereload
+npm install -g cordova
+npm install -g express
+npm install -g generator-mocha
+npm install -g generator-webapp
+npm install -g gittio
+npm install -g gulp
+npm install -g imageoptim-cli
+npm install -g ionic
+npm install -g ios-sim
+npm install -g jshint
+npm install -g node-sass
+npm install -g ti-inspector
+npm install -g titanium
+npm install -g yo
