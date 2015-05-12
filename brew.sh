@@ -99,5 +99,98 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+brew tap caskroom/cask
+brew install brew-cask
+
+#added
+brew install colordiff
+brew install gdbm
+brew install icu4c
+brew install libtool
+brew install node
+brew install python
+brew install unixodbc
+brew install autoconf
+brew install composer
+brew install gettext
+brew install imagemagick
+brew install libxml2
+brew install openssl
+brew install php55-mcrypt
+brew install readline
+brew install autojump
+brew install curl
+brew install jpeg
+brew install mcrypt
+brew install ossp-uuid
+brew install phpmd
+brew install sqlite
+brew install freetype
+brew install git-flow
+brew install libpng
+brew install mhash
+brew install php-code-sniffer
+brew install pkg-config
+brew install terminal-notifier
+brew install zlib
+brew install heroku-toolbelt
+
+#Quicklook Plugins
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install webpquicklook
+brew cask install suspicious-package
+
+#Brew Cask Packages
+brew cask install alfred
+brew cask install coda
+brew cask install firefox
+brew cask install imagealpha
+brew cask install intensify-pro
+brew cask install magicprefs
+brew cask install skype
+brew cask install sublime-text3
+brew cask install titanium-studio
+brew cask install atom
+brew cask install codekit
+brew cask install forklift
+brew cask install imagemin
+brew cask install iterm2
+brew cask install mamp
+brew cask install spotify
+brew cask install synology-cloud-station
+brew cask install tower
+brew cask install bonjour-browser
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install google-hangouts
+brew cask install imageoptim
+brew cask install kitematic
+brew cask install sequel-pro
+brew cask install steam
+brew cask install teamviewer
+brew cask install vlc
+brew cask install appcleaner
+brew cask install caffeine
+brew cask install cheatsheet
+brew cask install spectacle
+brew cask install superduper
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install xtrafinder
+brew cask install transmit
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# some quick vagrant & composer tasks, I didn't know where else to put in
+vagrant box add laravel/homestead
+composer global require "laravel/homestead=~2.0"
+homestead init
